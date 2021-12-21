@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+    * {
+        padding: none;
+        margin: none;
+        box-sizing: border-box;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+
+    .critic {
+        color: tomato;
+        font-size: 4.5rem;
+    }
+
+    body {
+        background-color: #21D4FD;
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+
+    h1::before {
+        content: '';
+        display: block;
+        height: 110px;
+        width: 500px;
+        position: absolute;
+        top: 17%;
+        left: 50%;
+        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        opacity: 0.8;
+        z-index: -1;
+        transform: skewY(365deg) translate(-50%, -50%);
+    }
+
+    .top-pick {
+        margin: 1rem 1rem 1rem 3rem;
+    }
+
+    .top-pick-head {
+        color: white;
+        font-size: 1.9rem;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+
+    .cards {
+        margin: 2rem 2rem 2rem 2rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;       
+
+    }
+
+    .card {
+        margin-bottom: 2rem;
+        overflow: hidden;
+        min-height: 450px;         
+        width: 300px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .image img {
+        width: 100%;
+        height : 225px;
+        max-height: 225px;        
+ 
+        border-radius: 15px 15px 0px 0px;
+    }
+    .rating{
+        padding-left:1rem;
+        margin-top: 0.5rem;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .Title {
+        margin-top: 0.5rem;
+        font-family: 'Karla', sans-serif;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    .content-small {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-small>* {
+        flex: 1;
+    }
+
+    .gener {
+        font-family:'Karla', sans-serif;
+        display: flex;
+        width: 159.3px;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        position: absolute; 
+        margin-left: 9.3%;   
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        border-radius:0px 15px 0px 15px;
+        padding: 1rem;
+    }
+
+    .details{         
+        font-family: sans-serif;
+
+    }
+    a{
+        margin-left: 1rem;
+        margin-top: 5rem;
+        background-color: rgba(0, 0, 0, 0.712);
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 10px;
+        text-decoration: none;
+        color:white;
+        font-family: sans-serif;
+    }    
+     .link:hover{
+        margin-left: 1rem;
+        transition: 400ms ease-in;
+        transform: scale(1.2);
+     }
+    .link{
+
+        margin-top: 2rem;
+    }
+</style>
+
+<body>
+    <div class="title">
+        <h1>anime<span class="critic">Critic</span></h1>
+    </div>
+    <div class="top-pick">
+        <span class="top-pick-head">Top picks Of the Day :</span>
+    </div>
+    <div class="cards">
+        {%PRODUCT_CARD%}         
+         
+    </div>
+</body>
+
+</html>

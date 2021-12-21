@@ -1,0 +1,102 @@
+[
+    {
+        "id":0,
+        "title":"Attack on Titans",
+        "image":"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/cd3576b23de38f03e468ac27a8b79a1530b5c7b082e17a0ab78090216f863676._RI_V_TTW_.jpg",
+        "rating":"9.0",
+        "seasons":4,
+        "episodes":75,
+        "gener" :"action, adventure",
+         "headImage" : "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/cd3576b23de38f03e468ac27a8b79a1530b5c7b082e17a0ab78090216f863676._RI_V_TTW_.jpg",
+        "description":"Humans are nearly exterminated by giant creatures called Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans. Flash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind."
+    },
+    {
+        "id":1,
+        "title":"Naruto",
+        "image":"https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+        "rating":"8.3",
+        "seasons":9,
+        "episodes":220,
+        "gener" :"action, adventure",
+        "headImage" : "https://media.comicbook.com/2020/12/naruto-1249229.jpeg?auto=webp&width=1200&height=628&crop=1200:628,smart",
+        "description":"Many years ago, in the hidden village of Konoha, lived a great demon fox. When it swung one of it's nine tails, a tsunami occurred. The fourth hokage sealed this demon fox inside a boy in exchange for his own life. Naruto was that boy, and he grew up with no family, and the villagers hated him thinking that he himself was the demon fox. Naruto's dream is to become Hokage, and have the villagers acknowledge him.—Katelyn Karaway"
+    },
+    {
+        "id":2,
+        "title":"Bleach",
+        "image":"https://d.newsweek.com/en/full/1574816/bleach-20th-anniversary-anime-return.jpg?w=1600&h=1200&l=77&t=26&q=88&f=5e76857f6f51fd57cacfd7a06e17373f",
+        "rating":"8.1",
+        "seasons":14,
+        "episodes":369,
+        "gener" :"action, adventure",
+        "headImage" : "https://thenewsfetcher.com/wp-content/uploads/2020/09/bleach-1212912.jpeg",
+        "description":"High school student Kurosaki Ichigo is unlike any ordinary kid. Why? Because he can see ghosts. Ever since a young age, he's been able to see spirits from the afterlife. Ichigo's life completely changes one day when he and his two sisters are attacked by an evil, hungry and tormented spirit known as a Hollow. Right in the nick of time, Ichigo and his siblings are aided by a Shinigami (Death God) named Kuchiki Rukia, whose responsibility it is to send good spirits (Pluses) to the afterlife known as Soul Society, and to purify Hollows and send them up to Soul Society. But during the fight against the Hollow, Rukia is injured and must transfer her powers to Ichigo. With this newly acquired power, so begins Kurosaki Ichigo's training and duty as a Shinigami to maintain the balance between the world of the living and the world of the dead..."
+    },
+    {
+        "id":3,
+        "title":"Black Clover",
+        "image":"https://m.media-amazon.com/images/M/MV5BNTAzYTlkMWEtOTNjZC00ZDU0LWI5ODUtYTRmYzY0MTAzYWZlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+        "rating":"8.3",
+        "seasons":5,
+        "episodes":170,
+        "gener" :"action, adventure",
+        "headImage" : "https://i.pinimg.com/originals/64/4e/e7/644ee7f16c62769593591f0a28fb31c8.jpg",
+        "description":"Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Wizard King. However, as they grew up the differences in their abilities became considerably noticeable. Yuno was a genius in his magic control and power, whilst Asta possessed no magic at all so he trained his physical body as much as possible in an attempt to make up for his lack of magic. Having received their Grimoires at age 15, Yuno unexpectedly got one with a four leaf clover symbol on his whilst Asta unfortunately did not even get a Grimoire at all. However, when Yuno was threatened, the truth about Asta's power was revealed, he received a five leaf clover Grimoire, a 'black clover'. Now the two friends are heading out in the world, both seeking the same goal."
+        
+    },
+    {
+        "id":4,
+        "title":"Demon Slayer",
+        "image":"https://m.media-amazon.com/images/M/MV5BZjZjNzI5MDctY2Y4YS00NmM4LTljMmItZTFkOTExNGI3ODRhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_FMjpg_UX1000_.jpg",
+        "rating":"8.7",
+        "seasons":1,
+        "episodes":28,
+        "gener" :"action, adventure",
+        "headImage" : "https://media.comicbook.com/2020/02/demon-slayer-kimetsu-no-yaiba-05-large-15-1205873-1280x0.jpeg",
+        "description":"From the earliest times, the humanity knows about human-flesh eating monsters, lurking in the darkness to devour an unfortunate soul that does not trust rumors. However, the rumors also mention an elite corps of demon hunters, skilled assassins, killing demons. Demon Slayer focuses on Tanjirou Kamado, who is still very young, but is the only man in his family. One day, Tanjirou decides to go down to the local village to make a little money, selling charcoal. When he returns back, he becomes an unwilling part of these horrifying rumors: his family is slaughtered and the only survivor, his sister Nezuko, is turned into demon. For some reason, Nezuko still acts as a human, which is the reason for Tanjirou to join demon slayers and cure his sister. Will he manage to join the elite corps and cure his sister?—Scientiiaa"
+    },
+    {
+        "id":5,
+        "title":"Naruto Shippuden",
+        "image":"https://dg31sz3gwrwan.cloudfront.net/fanart/79824/970356-0-q80.jpg",
+        "rating":"8.6",
+        "seasons":1,
+        "episodes":502,
+        "gener" :"action, adventure",
+        "headImage" : "https://dg31sz3gwrwan.cloudfront.net/fanart/79824/970356-0-q80.jpg",
+        "description":"Naruto Uzumaki wants to be the best ninja in the land. He's done well so far, but with the looming danger posed by the mysterious Akatsuki organization, Naruto knows he must train harder than ever and leaves his village for intense exercises that will push him to his limits."
+    },
+    {
+        "id":6,
+        "title":"You Lie in April",
+        "image":"https://nefariousreviews.files.wordpress.com/2017/03/your-lie-in-april-featured.jpg?w=672&h=372&crop=1",
+        "rating":"8.6",
+        "seasons":1,
+        "episodes":23,
+        "gener" :"Drama, Music",
+        "headImage" : "https://nefariousreviews.files.wordpress.com/2017/03/your-lie-in-april-featured.jpg?w=672&h=372&crop=1",
+        "description":"Shigatsu wa kimi no uso is an anime to what nobody stays indifferent. I started watching it because i was bored and liked the style of the cover. At first i thought that the anime was going to be good but inevitably full of clichés: a guy who plays the piano, a girl with who he falls in love,.. but as the characters were presented i realized it was nothing like that. The main character has a deep personal and sad story beneath it, the girl he meets is nothing like the typical girl either. The anime avoids the clichés that naturally come with a love story, there's something like a love triangle there too, or should i say, a love square? The sound track is perfect , the performances of the musicians breathtaking and with some suspense because you never know how it will go. If you're sensitive like me it will even make you tear up..even the secondary characters are interisting and well developed. I have no flaws to this beautiful anime which moral is that we all have the courage to overcome our fears despite our past and follow our passion"
+    },
+    {
+        "id":7,
+        "title":"Bungou Stray Dogs",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/91BQHhZ+6vL._RI_.jpg",
+        "rating":"7.8",
+        "seasons":2,
+        "episodes":37,
+        "gener" :"action, comedy",
+        "headImage" : "https://images-na.ssl-images-amazon.com/images/I/91BQHhZ+6vL._RI_.jpg",
+        "description":"Nakajima Atsushi was kicked out of his orphanage, and now he has no place to go and no food. While he is standing by a river, on the brink of starvation, he rescues a man whimsically attempting suicide. That man is Dazai Osamu, and he and his partner Kunikida are members of a very special detective agency. They have supernatural powers and deal with cases that are too dangerous for the police or the military. They're tracking down a tiger that has appeared in the area recently, around the time Atsushi came to the area. The tiger seems to have a connection to Atsushi, and by the time the case is solved, it is clear that Atsushi's future will involve much more of Dazai and the rest of the detectives."
+    },
+    {
+        "id":8,
+        "title":"The God of Highschool",
+        "image":"https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/09/The-God-of-Highschool-final-trailer-header.png",
+        "rating":"7.4",
+        "seasons":1,
+        "episodes":13,
+        "gener" :"action, adventure",
+        "headImage" : "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/09/The-God-of-Highschool-final-trailer-header.png",
+        "description":"The God of High School focuses on Jin Mo-Ri, a 17-year-old martial artist from Seoul, South Korea. He is invited to join a tournament, sponsored by an unknown, mysterious organization, no one knows about to select martial artists that will later take part in even bigger tournament. The God of High School is a competition of martial artists across the whole world and the most skillful warrior will take it all. However, little is known about the shady tournaments taking place.—Scientiiaa"
+    }
+]

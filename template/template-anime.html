@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #485461;
+        background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+        min-height: 100vh;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .info-card {
+        width: 90vw;
+        min-height: 1000px;
+        background-color: white;
+        border-radius: 25px;
+        margin-bottom: 2rem;
+    }
+
+    .info-card img {
+        position: absolute;
+        z-index: 0;
+        border-radius: 25px 25px 0px 0px;
+        width: 90vw;
+        height: 500px;
+    }
+
+    .info-gradient {
+        position: absolute;
+        z-index: 1;
+        border-radius: 25px 25px 0px 0px;
+        width: 90vw;
+        height: 500px;
+        background-color: #000000;
+        background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+        opacity: 0.8;
+    }
+
+    .info-title {
+        width: 90vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .info-title h1 {
+        font-size: 5rem;
+        word-spacing: 15px;
+        letter-spacing: 3px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .info-title h2 {
+        margin-top: 2rem;
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .info-title h3 {
+        margin-top: 2rem;
+        color: white;
+        font-size: 2rem;
+        padding-left: 2rem;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .decription {
+        margin-top: 550px;
+        padding: 0rem 3rem 0rem 3rem;
+        text-align: justify;
+        font-size: 1.3rem;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5rem;
+
+    }
+
+    .decription h1 {
+        margin-bottom: 2rem;
+        border-left: 15px solid yellow;
+        padding-left: 10px;
+    }
+
+    a {        
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+       
+       
+    }
+    .link{
+        position: absolute;
+        z-index: 3;
+        background-color: black;
+        border-radius: 15px;
+        margin: 0.5rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+    .link:hover{
+        margin: 0.5rem;
+        transition: 450ms ease-in;
+        transform: scale(1.1);
+
+    }
+</style>
+
+<body>
+    <div class="main-content">
+        <div class="info-card">
+            <div class="link"> 
+                <a href="/home">« Go Back</a>
+            </div>
+            <img src="{%HEADIMAGE%}" alt="image-head">
+
+            <div class="info-gradient"></div>
+            <div class="info-title">
+                <h1>{%TITLE%}</h1>
+                <h2>⭐ {%RATEING%}/10 | Seasons : {%SEASON%}</h2>
+                <h3>{%GENER%}</h3>
+            </div>
+            <div class="decription">
+                <h1>STORY LINE</h1>
+                <p>
+                    {%DESCRIPTION%}
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
